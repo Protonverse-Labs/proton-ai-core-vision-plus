@@ -1,0 +1,32 @@
+# Arduino / ESP32 build artifacts
+build/
+*.bin
+*.elf
+*.map
+*.hex
+
+# Arduino IDE
+.vscode/
+*.ino.cpp
+
+# PlatformIO (not currently used, ignored defensively)
+.pio/
+.pioenvs/
+.piolibdeps/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor files
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+
+# Environment / secrets — never commit real credentials
+.env
+secrets.h
