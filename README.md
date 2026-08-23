@@ -4,7 +4,7 @@
 
 # Proton AI Core Vision+
 
-**An ESP32-S3 camera development board with onboard IMU, secure element, I/O expander, microphone, and microSD — built by [Protonverse](https://github.com/protonverse).**
+**An ESP32-S3 camera development board with onboard IMU, secure element, I/O expander, microphone, and microSD — built by [Protonverse Labs](https://github.com/protonverse-labs).**
 
 ![MCU](https://img.shields.io/badge/MCU-ESP32--S3-blue)
 ![Camera](https://img.shields.io/badge/Camera-OV5640-blue)
