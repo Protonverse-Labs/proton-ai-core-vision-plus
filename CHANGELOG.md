@@ -7,6 +7,7 @@ All notable changes to this repository are documented here. Format loosely follo
 ### Added
 - Initial public repository structure: README, documentation set, sanitized firmware (V20), three extracted examples (camera capture, Wi-Fi camera stream, status LED), approved schematic, real hardware photos.
 - `docs/DEMO_RECORDING_CHECKLIST.md` describing what the first hardware demo recording will show.
+- Pre-launch email signup banner at the top of the README, linking to the official pre-launch page.
 
 ### Changed
 - N/A — this is the first published version of this repository.
