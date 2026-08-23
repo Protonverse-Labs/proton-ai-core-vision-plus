@@ -170,9 +170,26 @@ Issues and pull requests are welcome — bug reports, documentation fixes, new e
 
 Found a security issue? See [SECURITY.md](SECURITY.md) instead of opening a public issue.
 
-## Licensing
+## Licence
 
-A firmware license has not been finalized yet; this will be added as a `LICENSE` file once decided (see [CHANGELOG.md](CHANGELOG.md) for updates). This repository provides firmware, examples, and hardware **documentation** for developing with Proton AI Core Vision+ — it is not a fully open-source hardware release. PCB layout/manufacturing source files, Gerbers, and the production BOM are intentionally not included; see [hardware/README.md](hardware/README.md).
+- **Firmware:** MIT
+- **Schematic, bill of materials, documentation and examples:** CERN-OHL-P v2 (permissive)
+
+**Published:** schematic, parts-level bill of materials, V20 firmware source,
+full documentation set, example sketches, photographs of the assembled board.
+
+**Not published:** PCB layout source files, Gerbers, drill files,
+pick-and-place data, panelisation, and the production BOM.
+
+Everything needed to understand the board, reproduce the firmware, source the
+same parts and design around the same architecture is here. The files that
+would let someone press a button and have this exact board built are not.
+
+### Trademark
+
+"Protonverse", "Protonverse Labs" and "Proton AI Core" are trademarks and are
+**not** licensed under either of the above. The licences cover the design and
+the code, not the name. Build on it, modify it, sell it — under your own name.
 
 ---
 

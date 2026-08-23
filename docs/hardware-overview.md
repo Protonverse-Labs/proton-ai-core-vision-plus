@@ -78,6 +78,10 @@ Board dimensions and mounting hole spacing have not been published — `TODO: Ve
 
 The board silkscreen reads "Proton Ai Core Vision+ — Designed by Protonverse Labs — Protonverse 0.10". Whether "0.10" denotes a specific hardware revision number has not been confirmed — `TODO: Verification required`.
 
+## Bill of Materials
+
+A parts-level BOM (reference designators, values, manufacturer part numbers) derived from the schematic is published at [hardware/BOM.csv](../hardware/BOM.csv). It is **not** the production BOM — no supplier names, supplier part numbers, pricing, or order quantities are included.
+
 ## Not Included in This Repository
 
-Consistent with protecting manufacturing IP, this repository does **not** include: PCB layout/design source files, Gerber files, drill files, pick-and-place/CPL files, panelization files, the full production Bill of Materials (exact reference designators, supplier part numbers, and pricing), or any other manufacturing package. See [hardware/README.md](../hardware/README.md).
+Consistent with protecting manufacturing IP, this repository does **not** include: PCB layout/design source files, Gerber files, drill files, pick-and-place/CPL files, panelization files, the production Bill of Materials (supplier names, supplier part numbers, pricing, and order quantities), or any other manufacturing package. See [hardware/README.md](../hardware/README.md).

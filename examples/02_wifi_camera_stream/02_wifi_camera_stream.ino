@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: CERN-OHL-P-2.0
+
 /*
   Proton AI Core Vision+ — Example: Wi-Fi Camera Stream
   ============================================================================

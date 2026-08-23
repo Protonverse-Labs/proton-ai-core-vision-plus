@@ -8,6 +8,8 @@ All notable changes to this repository are documented here. Format loosely follo
 - Initial public repository structure: README, documentation set, sanitized firmware (V20), three extracted examples (camera capture, Wi-Fi camera stream, status LED), approved schematic, real hardware photos.
 - `docs/DEMO_RECORDING_CHECKLIST.md` describing what the first hardware demo recording will show.
 - Pre-launch email signup banner at the top of the README, linking to the official pre-launch page.
+- `LICENSE` (CERN-OHL-P v2, permissive) covering the schematic, parts-level BOM, and documentation; `LICENSE-MIT` covering the firmware and example sketches. SPDX identifiers added to source files. Explicit trademark reservation added to the README.
+- `hardware/BOM.csv` — a parts-level bill of materials derived from the schematic (not the production BOM).
 
 ### Changed
 - N/A — this is the first published version of this repository.
@@ -16,5 +18,4 @@ All notable changes to this repository are documented here. Format loosely follo
 - Removed hardcoded Wi-Fi credentials from the published firmware copy; replaced with `YOUR_WIFI_SSID` / `YOUR_WIFI_PASSWORD` placeholders.
 
 ### Pending
-- Firmware open-source license selection.
 - Hardware demo video/GIF (see `docs/DEMO_RECORDING_CHECKLIST.md`).

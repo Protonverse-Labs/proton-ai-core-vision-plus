@@ -1,0 +1,50 @@
+# SPDX-License-Identifier: CERN-OHL-P-2.0
+# Parts-level BOM for reference and sourcing.
+# This is not the production BOM.
+# Source: hardware/Schematic.pdf (approved schematic). No supplier part numbers,
+# pricing, order quantities, or assembly-house-specific fields are included.
+# Note: the schematic reuses reference designator "J2" for two different
+# connectors (I2C header and battery connector) — both are listed below as
+# they appear on the schematic; see docs/pinout.md for the known discrepancy.
+Reference Designators,Part / Value,Description
+IC2,ESP32-S3-WROOM-1-N16R8,MCU module (dual-core, 16MB flash, 8MB PSRAM)
+IC1,ICM-42670-P,IMU
+IC4,ATECC608B-MAHDA-S,Secure element / crypto authentication IC
+IC8,"PCA9685BS,118",16-channel PWM/LED driver (I/O expander)
+IC10,ICS-43434,I2S MEMS microphone
+IC5,MIC5219-3.3YM5-TR,3.3V LDO regulator (main rail)
+IC7,MIC5219-2.8YM5-TR,2.8V LDO regulator (camera analog rail)
+IC9,NCP163ASN150T1G,1.5V LDO regulator (camera digital core rail)
+IC6,USBLC6-2SC6,USB ESD protection array
+IC3,DMG3415U-7,P-channel MOSFET (battery reverse-polarity protection)
+U1,MCP73831T-2ACI/OT,Li-Po linear charge management IC
+Q1,AO3400A,N-channel MOSFET (1W LED driver)
+D1,MBR120VLSFT1G,Schottky diode (reverse-polarity protection path)
+LED1,5973605607F,Charge-status LED
+LED2,XL-3030UWC-1W-3V,1W high-power LED
+LED3,WS2812B-2020,Addressable RGB status LED
+J1,FFC2B28-24-G,24-pin FPC connector (camera)
+J2,A1002WR-S-4P,4-pin JST header (I2C breakout)
+J2,502352-0200,2-pin battery connector (duplicate "J2" designator on schematic — see note above)
+J3,TF-15X15,microSD push-push socket
+J4,USB4105-GF-A,USB-C receptacle
+P1,Header 2x2,UART header (RX/TX)
+P2,Header 6-pin,GPIO/PWM expansion header (PCA9685 channels)
+F1,MF-MSMF200-2,2A resettable fuse (USB-C power path)
+S1,B3U1000P,Tactile switch (BOOT)
+S2,B3U1000P,Tactile switch (RESET)
+"R1, R2, R9, R12, R14, R16",10k,Resistor
+R3,100k,Resistor
+"R4, R5",3.3k,Resistor
+"R6, R13",470,Resistor
+R7,2k,Resistor
+R8,3,Resistor
+"R10, R11",5.1k,Resistor
+R15,0.0,Resistor (0-ohm link)
+"C1, C2, C3, C5, C7, C10, C11, C12, C16, C17, C18, C22, C23, C24, C25, C29",0.10uF,Ceramic capacitor
+"C4, C9",22uF,Ceramic capacitor
+"C6, C8",10uF,Ceramic capacitor
+"C13, C19, C26",GRM21BR61E106MA73L,Ceramic capacitor (10uF class)
+"C15, C21, C27",1210YD476MAT2A,Ceramic capacitor (47uF class)
+"C14, C20",470pF,Ceramic capacitor
+C28,22pF,Ceramic capacitor
