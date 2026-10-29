@@ -1,4 +1,4 @@
-**Proton AI Core Vision+ is heading toward launch.** Leave your email on the official pre-launch page to be the first to know when it goes live: **[Get notified at launch →](https://prelaunch.com/projects/proton-ai-core-proton-ai-core-the-future-of-diy-ai-integration)**
+**Proton AI Core Vision+ is heading toward launch.** Leave your email on the official pre-launch page to be the first to know when it goes live: **[Get notified at launch →](https://www.crowdsupply.com/protonverse-labs/proton-ai-core-vision-plus)**
 
 ---
 
